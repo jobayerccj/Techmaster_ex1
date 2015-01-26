@@ -15,7 +15,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="<?php echo esc_url( get_template_directory_uri() ); ?>" class="image avatar"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/avatar.jpg" alt="" /></a>
+				<a href="<?php echo esc_url(get_bloginfo('url') ); ?>" class="image avatar"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/avatar.jpg" alt="" /></a>
                                 <h1>
                                     <?php bloginfo('name');?><br/>
                                     <?php bloginfo('description');?>
